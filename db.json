@@ -1,0 +1,210 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "customer": [
+    {
+      "id": 1,
+      "name": "cust1",
+      "phone": 8452010603,
+      "assets": [
+        {
+          "Type": "abc",
+          "Name": "abc",
+          "Holding_status": 1
+        }
+      ],
+      "sale":[
+          {
+            "ValuationDetail":"aha",
+            "RealizationValue":10,
+            "EstimatedMarketValue":12,
+            "DistressSaleValue":10,
+            "ValuationMethod":"method",
+            "Date":"2018-01-02",
+            "Valuer":"Mr.Bond",
+            "ReservePrice":100
+          }
+        ]
+    }
+   
+  ],
+  
+  "NoticeType": [
+    {
+      "id": 1,
+      "type": "Civil"
+    },
+    {
+      "id": 2,
+      "type": "Criminal"
+    },
+    {
+      "id": 3,
+      "type": "Section 138"
+    },
+    {
+      "id": 4,
+      "type": "Labour"
+    },
+    {
+      "id": 5,
+      "type": "Tax"
+    },
+    {
+      "id": 6,
+      "type": "SARFAESI"
+    },
+    {
+      "id": 7,
+      "type": "Loan Racall Notice(LRN)"
+    }
+  ],
+  "Holding_status": [
+    {
+      "id": 1,
+      "status": "Hold"
+    },
+    {
+      "id": 2,
+      "status": "UnHold"
+    }
+  ],
+  "Notice": [
+    {
+      "id": 1,
+      "Notice date": 230818,
+      "Parties": "abc",
+      "By/Against": "Mr. Pathak",
+      "Advocate Details": "Adv. Joshi",
+      "Receipt/Sent Date": 230818,
+      "Mode of Delivery": "xyz",
+      "Notice Location": "Thane,Mumbai",
+      "Business Unit": "BU",
+      "Delaing Officer": "Mr.Patil"
+    }
+  ],
+  "NoticeActionDetail": [
+    {
+      "NOtice Action Date": 250818,
+      "Related Document": "doc",
+      "Next Action Date": 300818,
+      "Notice Stage": "Pending Action"
+    },
+    {
+      "NOtice Action Date": 260818,
+      "Related Document": "doc",
+      "Next Action Date": 310818,
+      "Notice Stage": "Upcoming Action"
+    }
+  ],
+  "NoticeStatus": [
+    {
+      "id": 1,
+      "status": "Upcoming Action"
+    },
+    {
+      "id": 2,
+      "status": "Pending Action"
+    },
+    {
+      "id": 3,
+      "status": "Not Listed"
+    },
+    {
+      "id": 4,
+      "status": "Closed"
+    }
+  ],
+  "AssetNature": [
+    {
+      "id": 1,
+      "nature": "Movable"
+    },
+    {
+      "id": 2,
+      "nature": "Immovable"
+    }
+  ],
+  "AssetDetails": [
+    {
+      "id": 1,
+      "custId": 1,
+      "Asset Nature": "1",
+      "Asset Name": "Asset1",
+      "Holding Status": "Hold",
+      "Physical Possesion date": "2018-02-02"
+    },
+    {
+      "id": 2,
+      "custId": 2,
+      "Asset Nature": "2",
+      "Asset Name": "Asset2",
+      "Holding Status": "Hold",
+      "Physical Possesion date": "2018-02-02"
+    }
+  ],
+  "NoticeActionDetails": [
+    {
+      "id": 1,
+      "noticeId": 1,
+      "Action Date": "2018-02-02",
+      "Related Document": "doc",
+      "Next Action Date": "2018-02-04",
+      "Notice Stage": "Pending Action",
+      "Synopsis": "abcdefghi"
+    },
+    {
+      "id": 2,
+      "noticeId": 2,
+      "Action Date": "2018-02-02",
+      "Related Document": "doc",
+      "Next Action Date": "2018-02-04",
+      "Notice Stage": "Upcoming Action",
+      "Synopsis": "abcdefghi"
+    }
+  ],
+  "location": [
+    {
+      "id": 1,
+      "location": "location1"
+    },
+    {
+      "id": 2,
+      "location": "location2"
+    },
+    {
+      "id": 3,
+      "location": "location3"
+    }
+  ],
+  "Satke Detail": [
+    {
+      "id": 1,
+      "noticeId": 1,
+      "Prinipal Amount": 500,
+      "Interest Cost": 200,
+      "Counter Claim": "abc",
+      "Total Claim": 200
+    },
+    {
+      "id": 2,
+      "noticeId": 2,
+      "Prinipal Amount": 800,
+      "Interest Cost": 300,
+      "Counter Claim": "pqr",
+      "Total Claim": 100
+    }
+  ]
+}
